@@ -1,0 +1,61 @@
+ 
+ 
+9 public class Curso { 
+10     private String nombre; 
+11     private int cuatrimestre; 
+12     private String profesor; 
+13 
+ 
+14     public Curso() { 
+15     } 
+16 
+ 
+17     public Curso(String nombre, int cuatrimestre) { 
+18         this.nombre = nombre; 
+19         this.cuatrimestre = cuatrimestre; 
+20     } 
+21 
+ 
+22     public Curso(int cuatrimestre, String profesor) { 
+23         this.cuatrimestre = cuatrimestre; 
+24         this.profesor = profesor; 
+25     } 
+26 
+ 
+27     public String getProfesor() { 
+28         return profesor; 
+29     } 
+30 
+ 
+31     public void setProfesor(String profesor) { 
+32         this.profesor = profesor; 
+33     } 
+34 
+ 
+35     public String getNombre() { 
+36         return nombre; 
+37     } 
+38 
+ 
+39     public void setNombre(String nombre) { 
+40         this.nombre = nombre; 
+41     } 
+42 
+ 
+43     public int getCuatrimestre() { 
+44         return cuatrimestre; 
+45     } 
+46 
+ 
+47     public void setCuatrimestre(int cuatrimestre) { 
+48         this.cuatrimestre = cuatrimestre; 
+49     } 
+50      
+51      
+52 } 
+ 
+
+
+ 
+   
+
